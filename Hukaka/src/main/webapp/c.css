@@ -1,0 +1,145 @@
+header{
+    text-align: center;
+    font-size: 400%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+} 
+body{
+   background-image: url("https://wallpapercave.com/wp/wp4190380.jpg");
+    
+    /*background-color:black*/;
+    background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed;
+  height: 100vh; 
+  margin: 0;
+  padding: 0;
+ 
+}
+.section{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+  
+ .can{
+    font-family: Arial, Helvetica, sans-serif;
+ }
+#nav a{
+    color: white;
+    text-decoration: underline;
+}
+.fat {
+    color: white;
+    background: black;
+    width: 500px;
+    height: 70px;
+   text-align:center;
+    padding-left:60px;
+    margin-left:300px;
+     padding-right:80px;
+    
+}
+.dad
+{
+	color:white;
+}
+.services {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-item {
+    flex: 1;
+    padding: 50px 10px;
+    border: lightcyan solid 1px;
+    text-align: center;
+    margin: 180px 50px;
+    transition: all 1s;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-item:hover {
+    box-shadow: 5px 5px 30px lightsteelblue;
+}
+
+.service-item h2 {
+    font-family: Barlow Condensed;
+    font-size: 22px;
+    width: 120px;
+    color: #001F38;
+    flex: 1;
+}
+
+.service-item img {
+    width: 100px;
+    height: 100px;
+    flex: 1;
+}
+.footer {
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer::before {
+    position: absolute;
+    content: '';
+    display: block;
+    background-color: rgba(0, 0, 36, 0.80);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.footer .links {
+    position: relative;
+    color: #fff;
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.links ul {
+    list-style-type: none;
+}
+
+.links h3 {
+    font-family: Barlow Condensed;
+    font-weight: normal;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.links li {
+    font-family: Roboto;
+    cursor: pointer;
+    padding: 15px 0;
+}
+.faru
+{
+	height:50px;
+	width:40px;
+}
+
+.links li:hover {
+    color: #FFA801;
+}
+
+

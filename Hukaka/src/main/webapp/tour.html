@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Traveller City Information</title>
+<link rel="stylesheet"  href="sty.css">
+<style>
+    body {
+        background-color: black; /* Add black background color */
+        color: white; /* Set text color to white */
+    }
+    #nav a{
+    color: white;
+    text-decoration: underline;
+}
+</style>
+</head>
+<body>
+ <nav id="nav">
+            <ul>
+            <a href="homer.html">HOME</a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="about.html">ABOUT US</a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="tour.html">PACKAGES</a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="whychooseus.html">WHY US?</a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="contact.html">CONTACT</a>
+            &nbsp;&nbsp;&nbsp;
+            </ul><br>
+            <h1 style="color:white;">Get The Information About The Cities, <br>Restaurants,Places,<br>Hotels,Malls.. </h1>
+        </nav><br><br>
+	
+    <div class="background">
+    
+        <div class="container">
+            <h1>Get City Information</h1> <!-- Added heading above the input box -->
+            <form action="tourer" method="post">
+                <label for="cityName">Enter City Name:</label>
+                <input type="text" id="cityName" name="cityName" list="cityList">
+                <datalist id="cityList">
+                    <option value="JAMMU">
+                    <option value="LEH">
+                    <option value="BANGALORE">
+                    <option value="KERALA">
+                    <option value="MUMBAI">
+                    <option value="OOTY">
+                    <!-- Add more options as needed -->
+                </datalist>
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
